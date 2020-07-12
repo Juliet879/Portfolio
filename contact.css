@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 nav {
     margin-right: 0%;
 }
 nav ul{
     text-align: right;
-} 
+}
 nav ul li{
     display: inline-block;
     margin-top: 70px; 
@@ -23,51 +22,42 @@ nav ul li a{
     font-size: 30px;
     color: rgb(139, 38, 13);
 }
-img{
-    width: 300px;
-    height: 400px;
-    justify-content: space-around;
-    margin-right: 40px;
-    margin-top: 80px;
-} 
-#juliet{
-    text-align: left;
+form {
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 30px;
+}
+.contact-form{
+    width: 50%;
+    text-align: center;
     padding: 40px;
-    margin-top: 20px;
-} 
-.juliet{
-    text-align: left;
-    color:black;
-    margin-top: 200px;
-    flex-direction: column;
-    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.contact-form input[type=text] {
+        padding: 10px;
+        margin: 20px;
+        width: 150px;
+}
+.contact-form input[type=email] {
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+}
+.btn{
+    margin: 20px;
+    padding: 15px;
+    width: 30%;
+    background-color: #151575;
+    color: #fff;
     font-size: 20px;
-    margin-left: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
 }
-.kemunto{
-    display: flex;
-    justify-content: space-evenly;
-}
-.container{
-    background-color: white;
-    height: 150vh;
-}
-h1{
-    font-size: 50px;
-    margin-top: 5px;
-    color: rgba(8, 8, 43, 0.897);
-}
-h3{
-    margin-right: 100px;
-    font-family: 'Raleway', sans-serif;
-}
-
-nav ul li a:hover{
-    color: rgb(52, 96, 216);
-    border-bottom-left-radius: 20px;
-}
-hr{
-    width: 150%; 
+.btn:hover{
+    color: white;
 }
 #footer{
     font-size: 15px;
@@ -82,7 +72,6 @@ hr{
 }
 #footer h4:hover{
     color:  rgb(255, 0, 13);
-    background-color: coral;
 }
 .icons{
     padding: 10px;
@@ -91,7 +80,7 @@ hr{
 #copy{
     margin-left: 500px;
 }
-#facebook{
+#facebook{ 
     height: 50px;
     width: 50px;
 }

@@ -1,0 +1,74 @@
+nav {
+    margin-right: 0%;
+}
+nav ul{
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    margin-top: 70px; 
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 100px;
+}
+#nav h4{
+    float: left;
+    border: 2px solid black;
+    font-size: 30px;
+    color: rgb(139, 38, 13);
+}#footer{
+    font-size: 15px;
+    color: black;
+    margin-top: 200px;
+    margin-left: 40px;
+    font-family: 'Raleway', sans-serif;
+
+}
+#footer h4{
+    color: blue;
+}
+#footer h4:hover{
+    color:  rgb(255, 0, 13);
+}
+.icons{
+    padding: 10px;
+    margin-top: 0px;
+}
+#copy{
+    margin-left: 500px;
+}
+#facebook{ 
+    height: 50px;
+    width: 50px;
+}
+#twitter{
+    height: 50px;
+    width: 50px;
+}
+#insta{
+    height: 50px;
+    width: 50px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+#hospital{
+    width: 700px;
+    height: 300px;
+    margin-left: 200px;
+}
+#mall{
+    width: 700px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 150px;
+}
+.container h4{
+    margin-left: 200px;
+}
