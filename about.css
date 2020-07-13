@@ -64,3 +64,48 @@
     #contain p{
         font-size: 20px;
     }
+    .top{
+        margin-top: 50px;
+        margin-left: 20px;
+        height: 20vh;
+        display: flex; 
+    }
+    #contain img{
+        float: right;
+    }
+    img{
+        width: 800px;
+        height: 300px; 
+        /* margin-left: 500px; */
+    }
+    #about h1{
+        font-size: 70px;
+    }
+.facts{
+    margin-top: 300px;
+    margin-left: 500px;
+    font-size: 20px;
+    font-style: oblique;
+}
+.facts h4{
+    color: rgb(121, 52, 52);
+}
+#icons{
+    margin-left: 50px;
+    color: black;
+}
+#fb{
+    color: blue;
+}
+#insta{
+    color: rgb(228, 6, 143);
+}
+#youtube{
+    color: red;
+}
+#linkedin{
+    color: black;
+}
+#twitter{
+    color: rgb(29, 138, 211);
+}

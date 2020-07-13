@@ -107,3 +107,22 @@ hr{
     display: flex;
     flex-direction: column;
 }
+#icons{
+    margin-left: 50px;
+    color: black;
+}
+#fb{
+    color: blue;
+}
+#insta{
+    color: rgb(228, 6, 143);
+}
+#youtube{
+    color: red;
+}
+#linkedin{
+    color: black;
+}
+#twitter{
+    color: rgb(29, 138, 211);
+}

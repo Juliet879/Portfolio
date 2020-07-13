@@ -48,6 +48,7 @@ nav ul li a{
 }
 #twitter{
     height: 50px;
+
     width: 50px;
 }
 #insta{
@@ -71,4 +72,23 @@ nav ul li a{
 }
 .container h4{
     margin-left: 200px;
+}
+#icons{
+    margin-left: 50px;
+    color: black;
+}
+#fb{
+    color: blue;
+}
+#insta{
+    color: rgb(228, 6, 143);
+}
+#youtube{
+    color: red;
+}
+#linkedin{
+    color: black;
+}
+#twitter{
+    color: rgb(29, 138, 211);
 }

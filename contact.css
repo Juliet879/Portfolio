@@ -23,7 +23,7 @@ nav ul li a{
     color: rgb(139, 38, 13);
 }
 form {
-    border: 2px solid blue;
+    border: 5px solid blue;
     border-radius: 10px;
     padding: 30px;
 }
@@ -95,4 +95,23 @@ form {
 .footer{
     display: flex;
     flex-direction: column;
+}
+#icons{
+    margin-left: 50px;
+    color: black;
+}
+#fb{
+    color: blue;
+}
+#insta{
+    color: rgb(228, 6, 143);
+}
+#youtube{
+    color: red;
+}
+#linkedin{
+    color: black;
+}
+#twitter{
+    color: rgb(29, 138, 211);
 }
